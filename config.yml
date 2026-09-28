@@ -1,0 +1,36 @@
+# Python Similarity App Masterclass - Project Configuration
+
+version: "1"
+
+meta:
+  name: "python-similarity-app"
+  description: "The Armchair Scout: Player Similarity & Scouting Engine"
+  instructor: "Saiprasad Kagne"
+  language: [python]
+  tags:
+    - python
+    - streamlit
+    - sports-analytics
+    - machine-learning
+    - generative-ai
+    - data-visualization
+
+system:
+  apt:
+    - build-essential
+    - curl
+  scripts: []
+
+python:
+  version: "3.14"
+  manager: uv
+  sync: true
+
+r: null
+
+env:
+  PYTHONDONTWRITEBYTECODE: "1"
+  PYTHONUNBUFFERED: "1"
+
+workspace:
+  dir: /home/jovyan/workspace
